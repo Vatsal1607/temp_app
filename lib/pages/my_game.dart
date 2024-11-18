@@ -8,7 +8,7 @@ import 'package:flame/game.dart';
 class MyGame extends FlameGame with TapDetector {
   late SpriteComponent player;
 
-  @override
+  @overrideg
   FutureOr<void> onLoad() async {
     player = SpriteComponent(
       sprite: await loadSprite('player.jpeg'),
