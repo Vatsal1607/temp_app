@@ -11,7 +11,7 @@ class MyGame extends FlameGame with TapDetector {
   @overrideg
   FutureOr<void> onLoad() async {
     player = SpriteComponent(
-      sprite: await loadSprite('player.jpeg'),
+      sprite: await loadSprite('player.j  peg'),
       size: Vector2(50, 50),
       position: Vector2(100, 400),
     );
